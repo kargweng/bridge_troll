@@ -27,7 +27,7 @@ module Bridgetroll
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
-    config.time_zone = 'UTC'
+    config.time_zone = 'Kuala Lumpur'
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
@@ -35,6 +35,8 @@ module Bridgetroll
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
+    config.i18n.default_locale = :en
+    config.i18n.available_locales = [:en]
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
@@ -51,9 +53,8 @@ module Bridgetroll
     config.assets.initialize_on_precompile = false
 
     # set default from address across
-    ActionMailer::Base.default :from => 'RailsBridge <troll@bridgetroll.org>'
+    ActionMailer::Base.default :from => 'Magic - RailsBridge <kargweng@2ndlab.co>'
 
     config.i18n.enforce_available_locales = false
-    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
