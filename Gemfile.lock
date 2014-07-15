@@ -91,6 +91,9 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
     eco (1.0.0)
       coffee-script
       eco-source
@@ -113,6 +116,9 @@ GEM
     ffi (1.9.3)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
+    foreman (0.74.0)
+      dotenv (~> 0.11.1)
+      thor (~> 0.19.1)
     formatador (0.2.5)
     fssm (0.2.10)
     geocoder (1.2.2)
@@ -362,6 +368,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   font-awesome-rails
+  foreman
   geocoder
   gmaps4rails
   gravatar_image_tag

@@ -32,3 +32,5 @@ custom_plan.rb
 
 # Vim swap files
 **/*.swp
+
+.env

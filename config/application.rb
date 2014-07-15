@@ -54,5 +54,6 @@ module Bridgetroll
     ActionMailer::Base.default :from => 'RailsBridge <troll@bridgetroll.org>'
 
     config.i18n.enforce_available_locales = false
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end

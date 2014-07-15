@@ -138,3 +138,6 @@ To import historical data from Meetup, use the rake task `rake meetup:import`. T
 
 ## Contributors
 Literally one billion thanks to our [super awesome contributors](https://github.com/railsbridge/bridge_troll/contributors).
+
+
+## To setup, consider to use Foreman or dot-env

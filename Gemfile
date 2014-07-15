@@ -69,3 +69,5 @@ group :test do
   gem "faker"
   gem 'capybara-screenshot'
 end
+
+gem 'foreman'
