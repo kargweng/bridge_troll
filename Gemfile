@@ -66,8 +66,8 @@ group :test do
   gem "poltergeist"
   gem "launchy"
   gem 'shoulda-matchers'
-  gem "faker"
   gem 'capybara-screenshot'
 end
 
+gem "faker"
 gem 'foreman'
